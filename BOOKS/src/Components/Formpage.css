@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.nameBtn{
+  height:3vw;
+  width:15vw;
+  color:rgb(0, 0, 0);
+  font-size:24px;
+  cursor: pointer;
+  font-size: 25px;
+  margin:1vw;
+  background-color:#ffffff ;
+  font-family: 'Gruppo', sans-serif;
+  
+ 
+}
+.content {
+    width:35vw;
+    margin: 2vw auto 1vw auto;
+    padding: 1.5vw;
+    background:linear-gradient(rgb(49, 49, 49),rgb(0, 0, 0)) ;
+    color:white;
+    font-family: 'Pompiere', sans-serif;
+    border: 1px solid white
+}
+  .success {
+    background-color: #d4edda;
+    color: #33a14c;
+    border: 1px solid #c3e6cb;
+    padding: 0.25vw;
+    margin-bottom: 1vw;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .Form {
+    margin-top:1vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gruppo', sans-serif;
+    
+  }
+  .title{
+    text-align: center;
+    font-size:45px;
+  font-family: 'Gruppo', sans-serif;
+
+  }
+  label {
+    margin-top:1vw;
+    margin-bottom: 0.50vw;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 1vw;
+    margin-bottom: 1vw;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  .err {
+    color: #ff0019;
+    margin-top: 0.50vw;
+  }
+  #btn[type="submit"] {
+    width:10vw;
+    margin-top:3vw;
+    padding: 1vw ;
+    margin-left:12vw;
+    background-color: #009a1ae4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #btn[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  #btn[type="submit"]:hover{
+    background-color: #01b51fe4 ;
+  }
+  #btn[type="submit"]:active{
+    background-color: #01d024e4 ;
+  }
+  

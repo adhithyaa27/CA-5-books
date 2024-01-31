@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+body{
+    background-color:rgb(255, 187, 187);
+}
+  
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 124, 124);
+    height: 150px;
+    
+}
+  
+
+.Name {
+    border-style: none;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: #ff0000;
+    margin-left:5vw;
+    cursor: pointer;
+   
+
+}
+  
+
+.BookInp {
+    padding:0.25vw;
+    border-radius: 5px 0 0 5px;
+    width: 50vw;
+    height: 3vh;
+    border: 1px solid #cccccc;
+    margin-top:1vw;
+
+}
+  
+#logo{
+    margin-right: px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.Register {
+    height: 40px;
+    width: 150px;
+    margin-right:5vw;
+    font-style: italic;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Gruppo', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1vw;
+    margin-top: 2vw;
+
+}
+  
+
+.book {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0.5vw;
+    box-shadow: 0px 2vw 4vw rgba(0, 0, 0, 0.1);
+    width: 20vw; 
+    height: 30vw; 
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: columnq;
+
+}
+  
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Gruppo', sans-serif;
+
+}
+  
+
+img {
+    width: 65%;
+    height: 65%; 
+    border-radius: 10px;
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;  */
+    align-self: center;
+
+}
+  
+
+p {
+    margin: 5px 0;
+    font-size: 30px;
+    color: #666666;
+    font-family: 'Gruppo', sans-serif;
+
+}
